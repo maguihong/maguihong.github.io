@@ -393,12 +393,13 @@ $color5: #F24B4B;
 
 /* Demo purposes */
 .strips_wrap {
-  position: fixed;
+  position:absolute;
   top: 0;
   left: 0;
   background: white;
   width: 100%;
   height: 100%;
+  display: block;
 }
 
 body {
