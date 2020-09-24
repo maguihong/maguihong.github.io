@@ -30,8 +30,8 @@ var Expand = function() {
     }
 
     var bindActions = function() {
-        tileLink.on('click touchstart', open);
-        stripClose.on('click touchstart', close);
+        tileLink.on('click', open);
+        stripClose.on('click', close);
     };
 
     var init = function() {
