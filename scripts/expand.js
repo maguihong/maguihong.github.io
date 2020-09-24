@@ -7,7 +7,6 @@ var Expand = function() {
     var expanded  = false;
 
     var open = function() {
-        alert("strip was clicked");
         var tile = $(this).parent();
         if (!expanded) {
             tile.addClass('strips__strip--expanded');
