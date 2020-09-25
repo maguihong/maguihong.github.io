@@ -396,15 +396,6 @@ $color5: #F24B4B;
 }
 
 /* Demo purposes */
-.strips_wrap {
-  position:absolute;
-  top: 0;
-  left: 0;
-  background: white;
-  width: 100%;
-  height: 100%;
-}
-
 body {
   font-family: 'Lato';
   -webkit-font-smoothing: antialiased;
@@ -430,3 +421,30 @@ p {
   margin: 0 0 16px;
 }
 
+/* Customize */
+.strips-wrapper {
+  position:absolute;
+  top: 0;
+  left: 0;
+  background: white;
+  width: 100%;
+  height: 100%;
+}
+
+.icon {
+  display: inline-block;
+  text-align:center;
+  margin: 5px 10px;
+  cursor: pointer;
+
+  //https://medium.com/@mezoistvan/finally-a-css-only-solution-to-hover-on-touchscreens-c498af39c31c
+  @media(hover: hover) and (pointer: fine) {
+    &:hover{
+      -webkit-transition: all .6s cubic-bezier(0.23, 1, 0.32, 1);
+              transition: all .6s cubic-bezier(0.23, 1, 0.32, 1);
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px);
+    }
+  }
+  
+}
