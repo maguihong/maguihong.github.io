@@ -48,7 +48,7 @@ exclude:
 
 # Set a path/url to a favicon that will be displayed by the browser
 # If the path to your favicon is /favicon.ico, you can leave favicon_ico unset.
-# favicon_ico: "/assets/images/favicon.ico"
+favicon_ico: "/assets/images/favicon.ico" # https://favicon.io/ # Text: M # Font: Leckerli_One_110_#FFF # Background: Circle_#000
 
 # Enable or disable the site search
 # Supports true (default) or false
